@@ -1,1 +1,1 @@
-websockets
+fastapi[standard]
