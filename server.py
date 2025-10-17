@@ -7,10 +7,11 @@ import sys
 members = set()
 
 async def chat(websocket):
+    print("New member: ", websocket)
     members.add(websocket)
     try:
         async for message in websocket:
-            print(message)
+            print("Received message: ", message)
             # broadcast message to all members
             print("Current members: ", members)
             for member in members:

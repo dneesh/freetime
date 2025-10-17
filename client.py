@@ -14,7 +14,7 @@ async def hello():
                 sys.exit()
             await websocket.send(message)
             response = await websocket.recv()
-            print("Response: ", message)
+            print("Response: ", response)
 
 
 if __name__ == "__main__":
