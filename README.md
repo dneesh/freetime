@@ -1,4 +1,4 @@
-# When's everyone free?
+# Freetime - When is the group free?
 A real-time broadcasting system that makes it easy to find free time for a group.
 
 
